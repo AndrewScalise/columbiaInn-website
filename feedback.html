@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- "Home" -->
+<!-- Author: Andrew Scalise -->
+<!-- Course: CISS298 Web Programming -->
+<!-- Date: July 22 2016 -->
+
+<html>
+<head>
+<meta charset = "utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+<title>Cougar Inn</title>
+<meta name="keywords" content="Cougar Inn, Columbia College, Cougar Athletics, Hotel, Columbia MO, 65202, Columbia Motel, Cougars, Columbia Stay" />
+<meta name="description" content="Cougar Inn is located in Columbia, MO.  We provide a comfortable place to say near Colubmia College at low prices. Go Cougars!" />
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<header class="text-xs-center">
+		<h1 class="p-t-3 p-b-2">Cougar Inn</h1>
+		<nav class="navbar bg-faded">
+		<div class="hidden-xs-down">
+			<ul class="nav nav-inline">
+				<li class="nav-item"><a href="home.html">Home</a></li>
+				<li class="nav-item"><a href="about.html">About Us</a></li>
+				<li class="nav-item"><a href="columbiacollege.html">Columbia College</a></li>
+				<li class="nav-item"><a href="around.html">Around Town</a></li>
+				<li class="nav-item"><a href="reservations.html">Reservations</a></li>
+				<li class="nav-item"><a href="feedback.html">Feedback</a></li>
+				<li class="nav-item"><a href="directions.html">Directions</a></li>
+				<li class="nav-item"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#myNavbar">&#9776;</button>
+		
+		<div class="collapse navbar-toggleable-xs hidden-sm-up" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li class="nav-item"><a href="home.html">Home</a></li>
+				<li class="nav-item"><a href="about.html">About Us</a></li>
+				<li class="nav-item"><a href="columbiacollege.html">Columbia College</a></li>
+				<li class="nav-item"><a href="around.html">Around Town</a></li>
+				<li class="nav-item"><a href="reservations.html">Reservations</a></li>
+				<li class="nav-item"><a href="feedback.html">Feedback</a></li>
+				<li class="nav-item"><a href="directions.html">Directions</a></li>
+				<li class="nav-item"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	
+	<!-- Page Contents -->
+	<main class="row">
+	<div class="col-md-8 col-md-offset-4">
+	<legend><h3 class="p-t-2 p-b-2">Feedback</h3></legend>
+	<fieldset style="width:500px;margin-left:30px;background-color:#e9e9e9;border-radius: 10px">	
+		<form  action="feedback.php" method="post" value="comments">
+		<p class="p-t-1">Name: <input type="text" name="name" /></p>
+		<p>Comments:</p><textarea name="comments" cols="60" rows="10"></textarea></p>
+		<p><input type="submit" name="submit" value="Submit Comments"></p>
+		</form>
+		</fieldset>
+		
+		<form style="margin-left:30px" action="feedback.php" method="post">
+		<p class="p-t-1"><input type="submit" name="view" value="View All"></p>
+		</form>	
+	</main>
+	<!-- End of Page Contents -->
+	
+	<footer class="bg-faded text-md-center">
+		<p>&copy; Cougar Inn LLC 2016 | Webmaster:
+		<a href="mailto:ascalise1@cougars.ccis.edu">Andrew Scalise</a>
+		</p>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+	
+</div>
+</body>
+</html>
+		
+		
